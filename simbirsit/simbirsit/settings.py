@@ -3,16 +3,11 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
-SECRET_KEY = 'c_l!bu)$kcej5!6*o+@&0e03_)i_e)*)t2)-5y_4-fx+n=1@7b'
+SECRET_KEY = os.getenv("SECRET_KEY", 'default-value')
 
-DEBUG = True
+DEBUG = os.getenv('DEBUG', default=False)
 
-ALLOWED_HOSTS = [
-    'localhost',
-    '127.0.0.1',
-    '[::1]',
-    'testserver',
-]
+ALLOWED_HOSTS = [os.getenv('ALLOWED_HOSTS', default='*')]
 
 
 INSTALLED_APPS = [
