@@ -3,7 +3,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
-SECRET_KEY = os.getenv("SECRET_KEY", 'default-value')
+SECRET_KEY = os.getenv('SECRET_KEY', 'default-value')
 
 DEBUG = os.getenv('DEBUG', default=False)
 
@@ -24,8 +24,8 @@ INSTALLED_APPS = [
     'orders.apps.OrdersConfig',
     'favorite.apps.FavoriteConfig',
     'rest_framework',
-    "rest_framework.authtoken",
-    "django_filters",
+    'rest_framework.authtoken',
+    'django_filters',
     'djoser',
     'drf_yasg',
 ]
@@ -34,22 +34,22 @@ REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.AllowAny',
     ],
-    "DEFAULT_AUTHENTICATION_CLASSES": [
-        "rest_framework.authentication.TokenAuthentication",
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.TokenAuthentication',
     ],
 }
 
 DJOSER = {
-    "SERIALIZERS": {
-        "user_create": "api.serializers.UserCreateSerializer",
-        "user": "api.serializers.UserSerializer",
-        "current_user": "api.serializers.UserSerializer",
+    'SERIALIZERS': {
+        'user_create': 'api.serializers.UserCreateSerializer',
+        'user': 'api.serializers.UserSerializer',
+        'current_user': 'api.serializers.UserSerializer',
     },
-    "PERMISSIONS": {
-        "user": ["djoser.permissions.CurrentUserOrAdmin"],
-        "user_list": ["rest_framework.permissions.IsAdminUser"],
+    'PERMISSIONS': {
+        'user': ['djoser.permissions.CurrentUserOrAdmin'],
+        'user_list': ['rest_framework.permissions.IsAdminUser'],
     },
-    "HIDE_USERS": False,
+    'HIDE_USERS': False,
 }
 
 SWAGGER_SETTINGS = {
