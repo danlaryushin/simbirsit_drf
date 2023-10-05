@@ -1,8 +1,8 @@
 ## **Стек технологий**
-![image](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
-![image](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green)
-![image](https://img.shields.io/badge/rest%20framework-DBD7D2?style=for-the-badge&logo=django&logoColor=FF2400)
-![image](https://img.shields.io/badge/sqlite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![python](https://img.shields.io/badge/python-222324?style=for-the-badge&logo=python&logoColor=yellow)
+![django](https://img.shields.io/badge/django-222324?style=for-the-badge&logo=django&logoColor=0C9D58)
+![rest_framework](https://img.shields.io/badge/rest%20framework-222324?style=for-the-badge&logo=django&logoColor=FF2400)
+![sqlite](https://img.shields.io/badge/sqlite-222324?style=for-the-badge&logo=sqlite)
 
 # Волжский Янтарь
 Проект на базе Django REST Framework, сделанный для магазина "Волжский Янтарь".
