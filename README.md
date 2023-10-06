@@ -45,7 +45,7 @@ python manage.py runserver
 
 Документация к API будет доступна по адресу http://127.0.0.1:8000/swagger/
 
-## Админ зона ##
+## Админ зона 
 Для доступа к админ-панели создайте суперпользователя
 ```
 python manage.py createsuperuser
@@ -59,5 +59,5 @@ python manage.py createsuperuser
 * Контейнеризация с использованием Docker
 * Deploy проекта на боевой сервер
 
-## Автор ##
+## Автор 
 [Даниил Ларюшин](https://github.com/danlaryushin) - Разработчик
