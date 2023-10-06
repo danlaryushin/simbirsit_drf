@@ -1,4 +1,3 @@
-## **Стек технологий**
 ![python](https://img.shields.io/badge/python-222324?style=for-the-badge&logo=python&logoColor=yellow)
 ![django](https://img.shields.io/badge/django-222324?style=for-the-badge&logo=django&logoColor=0C9D58)
 ![rest_framework](https://img.shields.io/badge/rest%20framework-222324?style=for-the-badge&logo=django&logoColor=FF2400)
